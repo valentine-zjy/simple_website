@@ -1,0 +1,340 @@
+site:
+  title:
+    en: "Jiayang Zhang | AI / LLM Algorithm Engineer"
+    zh: "张嘉洋 | AI 大模型算法工程师"
+  description:
+    en: "Jiayang Zhang's online resume, focused on LLM algorithms, dialogue systems, data production, model fine-tuning, and practical algorithm engineering."
+    zh: "张嘉洋的个人在线简历，聚焦 AI 大模型算法、对话系统、数据生产、模型微调与算法工程实践。"
+  url: "https://example.com"
+  language: "zh"
+  supportedLanguages:
+    - "en"
+    - "zh"
+
+personal:
+  name:
+    en: "Jiayang Zhang"
+    zh: "张嘉洋"
+  englishName: "Jiayang Zhang"
+  headline:
+    en: "AI / LLM Algorithm Engineer"
+    zh: "AI 大模型算法工程师 / 算法岗"
+  shortBio:
+    en: "An algorithm engineer candidate focused on LLMs, dialogue systems, model fine-tuning, data production, and practical AI engineering."
+    zh: "面向 AI 大模型、对话系统、模型微调、数据生产与算法工程落地的算法工程师候选人。"
+  location:
+    en: "Shenzhen / Hefei / Hong Kong"
+    zh: "深圳 / 合肥 / 香港"
+  age: "21"
+  avatar: "/images/avatar.jpg"
+  cv: "/张嘉洋-算法岗简历.pdf"
+  phone: "18504210298"
+  email: "2561993486@qq.com"
+
+social:
+  email: "mailto:2561993486@qq.com"
+  github: ""
+  googleScholar: ""
+  linkedin: ""
+  x: ""
+
+hero:
+  primaryButton:
+    label:
+      en: "Download Resume"
+      zh: "下载简历"
+    href: "/张嘉洋-算法岗简历.pdf"
+  secondaryButton:
+    label:
+      en: "Contact Me"
+      zh: "联系我"
+    href: "mailto:2561993486@qq.com"
+
+navigation:
+  - label:
+      en: "About"
+      zh: "关于我"
+    href: "#about"
+  - label:
+      en: "Education"
+      zh: "教育背景"
+    href: "#education"
+  - label:
+      en: "Technical Focus"
+      zh: "技术方向"
+    href: "#research"
+  - label:
+      en: "Experience"
+      zh: "实习经历"
+    href: "#experience"
+  - label:
+      en: "Projects"
+      zh: "项目经历"
+    href: "#projects"
+  - label:
+      en: "Research & Competitions"
+      zh: "科研与竞赛"
+    href: "#publications"
+  - label:
+      en: "Skills"
+      zh: "技能"
+    href: "#skills"
+  - label:
+      en: "Contact"
+      zh: "联系方式"
+    href: "#contact"
+
+education:
+  - institution:
+      en: "Northeastern University"
+      zh: "东北大学"
+    degree:
+      en: "B.Eng. in Computer Science and Technology"
+      zh: "计算机科学与技术 本科"
+    period: "2022.09 - 2026.06"
+    location:
+      en: "China"
+      zh: "中国"
+    description:
+      en: "Computer Science and Technology at a Project 985 university. Core coursework includes Data Structures, Operating Systems, Computer Organization, Computer Networks, and Deep Learning. Received the university third-class scholarship and innovation & entrepreneurship scholarship."
+      zh: "985 高校计算机科学与技术专业。核心课程包括数据结构、操作系统、计算机组成原理、计算机网络、深度学习。曾获校级三等奖学金、创新创业奖学金。"
+  - institution:
+      en: "City University of Hong Kong"
+      zh: "香港城市大学"
+    degree:
+      en: "MSc in Artificial Intelligence"
+      zh: "人工智能理学硕士"
+    period: "2026.09 - 2027.06"
+    location:
+      en: "Hong Kong"
+      zh: "香港"
+    description:
+      en: "Master's program focused on artificial intelligence."
+      zh: "人工智能方向硕士项目。"
+
+researchInterests:
+  - title:
+      en: "LLM Training and Fine-tuning"
+      zh: "大模型训练与微调"
+    description:
+      en: "Focused on SFT, GRPO, quantized adaptation, and capability optimization of models such as Qwen in vertical scenarios."
+      zh: "关注 Qwen 等大模型在垂直场景中的 SFT、GRPO、量化适配与能力优化。"
+  - title:
+      en: "Dialogue Systems and Child-focused AI"
+      zh: "对话系统与儿童陪伴 AI"
+    description:
+      en: "Improving long-memory compression, child-style expression understanding, and emotionally supportive responses for children's voice interaction scenarios."
+      zh: "面向儿童语音交互场景，优化长记忆压缩、儿童化表达理解、情感陪伴回复等能力。"
+  - title:
+      en: "Data Production and Automated QA"
+      zh: "数据生产与自动质检"
+    description:
+      en: "Building configurable dialogue data pipelines that connect requirement parsing, structured generation, rule validation, and automated quality checks."
+      zh: "构建可配置对话数据生产系统，将需求解析、结构化生成、规则校验和自动质检串联成流水线。"
+  - title:
+      en: "Algorithm Engineering and Production Delivery"
+      zh: "算法工程与模型落地"
+    description:
+      en: "Practical experience across data processing, feature engineering, training and evaluation, online platforms, and model deployment."
+      zh: "具备从数据处理、特征工程、训练评估到在线平台搭建和模型部署的完整实践经验。"
+
+experience:
+  - title:
+      en: "Algorithm Engineer Intern"
+      zh: "算法工程师实习生"
+    organization:
+      en: "iFLYTEK Headquarters"
+      zh: "科大讯飞总部"
+    period: "2026.3 - Present"
+    location:
+      en: "Hefei"
+      zh: "合肥"
+    description:
+      - en: "Participated in the training system for child voice interaction LLMs based on Qwen3-14B / Qwen3-32B, improving long-memory compression, child-style expression understanding, and emotionally supportive responses."
+        zh: "参与儿童语音交互大模型训练体系建设，基于 Qwen3-14B / Qwen3-32B，围绕长记忆压缩、儿童化表达理解与情感陪伴回复等方向开展专项能力优化。"
+      - en: "Built model selection and evaluation workflows to compare major domestic and international models across generation quality, task fit, data production efficiency, evaluation quality, and stability."
+        zh: "搭建模型选型与评测流程，对多个国内外主流模型进行专项评估，从生成质量、任务适配性、数据生产效率、评测效果与稳定性等维度完成对比分析。"
+      - en: "Built a configurable dialogue data production system for generating training samples by scenario type, persona, dialogue turns, and risk tags."
+        zh: "构建可配置对话数据生产系统，支持按场景类型、角色设定、对话轮次及风险标签批量生成训练样本。"
+      - en: "Connected requirement parsing, structured generation, rule validation, and automated QA into a reusable data production skill to improve consistency, controllability, and efficiency."
+        zh: "通过数据生产 skill 串联需求解析、结构化生成、规则校验与自动质检流程，提升训练数据的一致性、可控性与生成效率。"
+      - en: "Created long-memory compression training data that condensed multi-turn dialogue history into 20 key facts, improving key-information retention and follow-up conversation quality."
+        zh: "自主构建长记忆压缩训练数据，将历史多轮对话压缩为 20 条关键信息，覆盖人物身份、性别、历史事件与对话内容，提升模型长对话关键信息保留与续聊能力。"
+      - en: "Built child meme and child-style expression data to improve understanding, recognition, and correction of children's popular expressions, including safer guidance for negative memes."
+        zh: "构建儿童热梗与儿童化表达训练数据，增强模型对儿童流行表达的理解、识别与纠偏能力，使模型在面对负面热梗时能够进行提醒和引导。"
+      - en: "Worked on emotional enhancement for dialogue training, comparing 4B SFT, 14B SFT, and 14B SFT+GRPO, and injected expression prediction as a prefix condition into a 32B response model."
+        zh: "负责对话情感增强模块的训练与优化，对比评估 4B SFT、14B SFT、14B SFT+GRPO 等方案；将表情预测结果作为前缀条件注入 32B 回复模型，形成情感预测 + 回复生成的协同推理链路。"
+  - title:
+      en: "PhD Assistant (Algorithms)"
+      zh: "博士生助理（算法）"
+    organization:
+      en: "Brain-Computer Interface Lab, University of Shanghai for Science and Technology"
+      zh: "上海理工大学脑机接口实验室"
+    period: "2025.9 - 2026.3"
+    location:
+      en: "Shanghai"
+      zh: "上海"
+    description:
+      - en: "Built and trained the CAM++ pipeline end to end, contributed to metadata standardization and data collection, and led model training and optimization."
+        zh: "全链条搭建并训练 CAM++ 模型，参与元数据规范格式设计和数据采集工作，主导模型训练与优化。"
+      - en: "Compared 128-dimensional MFCC with 40-dimensional reduced MFCC features and tuned key hyperparameters through grid search."
+        zh: "对比 128 维 MFCC 与降维至 40 维 MFCC 数据对模型效果的影响，并通过 Grid Search 对关键超参数进行调优。"
+      - en: "Transferred the best-performing soprano model to the mezzo-soprano task and improved accuracy from 45% to 60%."
+        zh: "将效果最好的女高音模型迁移到女中音任务，使女中音模型准确率从 45% 提升至 60%。"
+      - en: "Applied DPO to optimize the model, using model scores as rejected and teacher preference scores as chosen, and iterated with dpo_loss, pair_acc, and margin."
+        zh: "采用 DPO 算法优化模型，以模型打分作为 rejected、老师偏好打分作为 chosen，持续根据 dpo_loss、pair_acc、margin 等指标优化模型。"
+      - en: "Built an online scoring platform for vocal experts and improved the mezzo-soprano test-set accuracy to 92%."
+        zh: "构建在线打分平台辅助声乐专家打分，将女中音模型测试集准确率进一步提升至 92%。"
+      - en: "Used Claude Code together with React, TypeScript, and FastAPI to build the platform for audio upload, model scoring, result display, and local persistence."
+        zh: "借助 Claude Code 等 AI 编程工具，使用 React、TypeScript、FastAPI 搭建在线打分平台，实现音频上传、模型打分、结果展示和本地持久化存储。"
+  - title:
+      en: "LLM Algorithm Intern"
+      zh: "大模型算法实习生"
+    organization:
+      en: "China Unicom Group (Beijing Branch, Digitalization Department)"
+      zh: "中国联通集团（北京分公司数字化部）"
+    period: "2025.3 - 2025.5"
+    location:
+      en: "Beijing"
+      zh: "北京"
+    description:
+      - en: "Worked on training and deployment for the Tencent King Card super membership subscription prediction model using LightGBM, including data processing, feature engineering, training, comparison, and evaluation."
+        zh: "参与腾讯王卡超级会员订阅预测模型训练部署，基于 LightGBM 完成数据处理、特征工程、模型训练、效果对比与评估。"
+      - en: "Constructed multi-dimensional features from user activity, spending behavior, and historical subscription records, and tuned key hyperparameters with grid search."
+        zh: "针对用户活跃度、消费行为、历史订购记录等信息构建多维特征，并通过 Grid Search 对关键超参数进行调优。"
+      - en: "Introduced contrastive-learning-style user representation, using users who subscribed in month T-1 as positive samples, non-subscribers as negative samples, and month T users as the test set."
+        zh: "在用户表征构造中引入对比学习思想，选用 T-1 月账期办理超级会员的用户为正样本，未办理用户为负样本，T 月账期王卡用户为测试集。"
+      - en: "Identified the 70%+ probability target group and improved recall from 24.6% to 57.29% and F1 from 0.3595 to 0.5003 in the comparison with the old model."
+        zh: "识别概率 70%+ 目标群体，新旧模型对比中查全率从 24.6% 提升至 57.29%，F1 从 0.3595 提升至 0.5003。"
+
+projects:
+  - title:
+      en: "Child Voice Interaction LLM Training and Emotional Enhancement"
+      zh: "儿童语音交互大模型训练与情感增强"
+    description:
+      en: "Improved long-memory compression, child-style expression understanding, emotionally supportive replies, and expression-aware generation for child voice interaction scenarios."
+      zh: "围绕儿童语音交互场景，优化长记忆压缩、儿童化表达理解、情感陪伴回复与情感预测增强链路。"
+    role:
+      en: "Algorithm engineer intern responsible for model evaluation, data production, training optimization, and emotional enhancement."
+      zh: "算法工程师实习生，负责模型评测、数据生产、训练优化和情感增强模块。"
+    tags: ["Qwen3", "SFT", "GRPO", "对话系统", "情感计算", "数据生产"]
+    links:
+      paper: ""
+      code: ""
+      demo: ""
+  - title:
+      en: "CAM++ Vocal Scoring with DPO Optimization"
+      zh: "声乐评分 CAM++ 模型训练与 DPO 优化"
+    description:
+      en: "Built a vocal scoring model based on CAM++ and MFCC features, and improved performance through transfer learning and DPO preference optimization."
+      zh: "基于 CAM++ 和 MFCC 特征构建声乐评分模型，并通过迁移学习与 DPO 偏好优化提升模型效果。"
+    role:
+      en: "Led training, tuning, transfer experiments, DPO optimization, and online scoring platform development."
+      zh: "主导模型训练、调参、迁移实验、DPO 优化和在线打分平台搭建。"
+    tags: ["CAM++", "MFCC", "DPO", "React", "FastAPI", "AI 评分"]
+    links:
+      paper: ""
+      code: ""
+      demo: ""
+  - title:
+      en: "Tencent King Card Subscription Prediction Model"
+      zh: "腾讯王卡超级会员订阅预测模型"
+    description:
+      en: "Built a user subscription prediction model with LightGBM, covering feature engineering, training, hyperparameter search, and performance evaluation."
+      zh: "基于 LightGBM 构建用户订阅预测模型，完成特征工程、模型训练、调参和效果对比。"
+    role:
+      en: "Responsible for data processing, feature construction, grid search, and evaluation."
+      zh: "负责数据处理、特征构造、Grid Search 调参和模型评估。"
+    tags: ["LightGBM", "特征工程", "Grid Search", "用户预测", "对比学习"]
+    links:
+      paper: ""
+      code: ""
+      demo: ""
+  - title:
+      en: "Optimizing Facial Expression Recognition: From Model Visualization Insights to Attention-enhanced Performance"
+      zh: "优化面部表情识别：从模型可视化见解到增强注意力的性能提升"
+    description:
+      en: "Systematically compared eight facial expression recognition models and introduced attention mechanisms based on visualization analysis to improve accuracy."
+      zh: "系统对比 8 种面部表情识别模型，并基于可视化分析引入注意力机制提升模型准确率。"
+    role:
+      en: "First author, responsible for reproduction, evaluation, visualization analysis, attention design, and experiment optimization."
+      zh: "第一作者，负责模型复现、评估、可视化分析、注意力模块引入与实验优化。"
+    tags: ["Face Expression Recognition", "Attention", "Computer Vision", "CISAT2025"]
+    links:
+      paper: ""
+      code: ""
+      demo: ""
+  - title:
+      en: "APMCM Mathematical Modeling Competition"
+      zh: "亚太地区大学生数学建模竞赛 APMCM"
+    description:
+      en: "Built quantitative models to evaluate market maturity and forecast growth potential for future trends in the global pet industry."
+      zh: "围绕全球宠物行业未来趋势，构建量化模型评估市场成熟度并预测增长潜力。"
+    role:
+      en: "Team leader, responsible for modeling design, data analysis, time-series forecasting, and paper organization."
+      zh: "队长，负责建模方案设计、数据分析、时间序列预测和论文组织。"
+    tags: ["Mathematical Modeling", "Time Series", "Market Analysis", "APMCM"]
+    links:
+      paper: ""
+      code: ""
+      demo: ""
+
+publications:
+  - title:
+      en: "Optimizing Facial Expression Recognition: From Model Visualization Insights to Attention-enhanced Performance"
+      zh: "优化面部表情识别：从模型可视化见解到增强注意力的性能提升"
+    authors:
+      en: "Jiayang Zhang, et al."
+      zh: "张嘉洋 等"
+    venue:
+      en: "CISAT2025"
+      zh: "CISAT2025"
+    year: "2025"
+    status:
+      en: "Outstanding Paper Nomination / First Author"
+      zh: "优秀论文提名奖 / 第一作者"
+    links:
+      paper: ""
+      code: ""
+  - title:
+      en: "Asia-Pacific Mathematical Contest in Modeling"
+      zh: "亚太地区大学生数学建模竞赛"
+    authors:
+      en: "Jiayang Zhang, et al."
+      zh: "张嘉洋 等"
+    venue:
+      en: "APMCM"
+      zh: "APMCM"
+    year: ""
+    status:
+      en: "Second Prize / Team Leader"
+      zh: "二等奖 / 队长"
+    links:
+      paper: ""
+      code: ""
+
+skills:
+  - group:
+      en: "LLMs and Training"
+      zh: "大模型与训练"
+    items: ["Qwen3-14B", "Qwen3-32B", "SFT", "GRPO", "DPO", "量化适配", "模型评测", "数据生产"]
+  - group:
+      en: "Machine Learning and Algorithms"
+      zh: "机器学习与算法"
+    items: ["LightGBM", "Grid Search", "对比学习", "特征工程", "时间序列建模", "模型迁移"]
+  - group:
+      en: "Audio and Speech Modeling"
+      zh: "音频与语音建模"
+    items: ["CAM++", "MFCC", "声乐评分", "儿童语音交互", "情感预测"]
+  - group:
+      en: "Computer Vision"
+      zh: "计算机视觉"
+    items: ["面部表情识别", "注意力机制", "模型可视化", "图像预处理"]
+  - group:
+      en: "Engineering"
+      zh: "工程开发"
+    items: ["Python", "React", "TypeScript", "FastAPI", "本地持久化存储", "Claude Code"]
+  - group:
+      en: "Core Coursework"
+      zh: "基础课程"
+    items: ["数据结构", "操作系统", "计算机组成原理", "计算机网络", "深度学习"]

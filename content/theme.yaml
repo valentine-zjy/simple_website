@@ -1,0 +1,22 @@
+theme:
+  mode: "light"
+  accentColor: "blue"
+  background:
+    type: "image"
+    image: "/images/background.jpg"
+    overlay: true
+    overlayOpacity: 0.78
+  layout:
+    maxWidth: "max-w-6xl"
+    rounded: "rounded-2xl"
+    cardShadow: "shadow-sm"
+  typography:
+    heading: "tracking-tight"
+    body: "leading-7"
+  navbar:
+    sticky: true
+    blur: true
+  footer:
+    text:
+      en: "© 2026 Jiayang Zhang. Built with Next.js and deployed on Vercel."
+      zh: "© 2026 张嘉洋. Built with Next.js and deployed on Vercel."
